@@ -19,7 +19,10 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 PRODUCT_PACKAGES += \
     HwMMITest \
     HwSarControlService \
-    ims
+    ims \
+    SetupSmartDeviceOverlay \
+    TimeService \
+    Tycho 
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -29,12 +32,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CallStatistics \
     CNEService \
-    ConfigUpdater \
     ConnMO \
     DCMO \
     DiagMon \
     DMService \
-    Entitlement \
+    GCS \
     HiddenMenu \
     HotwordEnrollment \
     qcrilmsgtunnel \
